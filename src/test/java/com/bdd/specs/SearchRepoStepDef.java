@@ -44,7 +44,7 @@ public class SearchRepoStepDef {
 	public void verify_if_the_http_response_code_is(Integer Expected_Responsecode) {
 	   
 		System.out.println("Actual Response Code :" +Actual_Responsecode);
-		System.out.println("Actual Response Code :" +Actual_Responsecode);		
+		System.out.println("Expected Response Code :" +Expected_Responsecode);		
 		assertTrue(Actual_Responsecode==Expected_Responsecode?true:false);
 		
 	}

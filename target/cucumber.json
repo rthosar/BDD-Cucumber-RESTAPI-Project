@@ -1,0 +1,105 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 10,
+        "name": "Search the Github Repositories",
+        "description": "",
+        "id": "search-the-github-repositories;search-the-github-repositories;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4587955521,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "open a github repo and search a repo with keyword \"java\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"java\"",
+                  "offset": 50
+                }
+              ],
+              "location": "SearchRepoStepDef.open_a_github_repo_and_search_a_repo_with_keyword(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6050368,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "verify if the http response code is 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 36
+                }
+              ],
+              "location": "SearchRepoStepDef.verify_if_the_http_response_code_is(Integer)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 11,
+        "name": "Search the Github Repositories",
+        "description": "",
+        "id": "search-the-github-repositories;search-the-github-repositories;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1723539468,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "open a github repo and search a repo with keyword \"angular4\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"angular4\"",
+                  "offset": 50
+                }
+              ],
+              "location": "SearchRepoStepDef.open_a_github_repo_and_search_a_repo_with_keyword(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3533036,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "verify if the http response code is 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 36
+                }
+              ],
+              "location": "SearchRepoStepDef.verify_if_the_http_response_code_is(Integer)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Search the Github Repositories",
+    "description": "\tusing keyword...",
+    "id": "search-the-github-repositories",
+    "keyword": "Feature",
+    "uri": "Search/RestApiSearch.feature",
+    "tags": []
+  }
+]

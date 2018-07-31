@@ -12,9 +12,10 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(
 monochrome=true,
 glue={"com.bdd.specs"},
-features={"classpath:Search"}
+features={"classpath:Search"},
+plugin={"pretty","html:target/cucumber","json:target/cucumber.json"}
 
-		)
+)
 public class TestRunner {
 
 }
